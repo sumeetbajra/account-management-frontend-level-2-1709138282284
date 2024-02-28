@@ -1,0 +1,30 @@
+[
+  {
+    "requirement": "The application should be built using Vue 3, Vuex for state management, and Ant Design Vue for UI components.",
+    "criteria": "<p>Verify that the application is initialized with Vue 3 and Vite.</p><p>Ensure that Vuex is used to manage the application's state, specifically for tasks' addition, completion, and filtering based on importance.</p><p>Check that Ant Design Vue components are utilized for the UI, particularly for the modal, inputs, checkboxes, and buttons.</p>"
+  },
+  {
+    "requirement": "TypeScript should be properly configured and used across the project.",
+    "criteria": "<p>Confirm that `tsconfig.json` is properly set up for Vue 3 and Jest compatibility.</p><p>Ensure all components, Vuex store, and utility functions are defined using TypeScript, with strict types where applicable.</p>"
+  },
+  {
+    "requirement": "The project must include unit tests written with Jest for components and Vuex actions.",
+    "criteria": "<p>Check that Jest is configured correctly for a Vue 3 project.</p><p>Ensure that there are meaningful unit tests for at least three components, covering both successful and edge case scenarios.</p><p>Verify that Vuex actions for adding, completing, and filtering tasks are covered by unit tests.</p>"
+  },
+  {
+    "requirement": "The application should follow clean code practices and ES6 syntax.",
+    "criteria": "<p>Review the code for readability, proper naming conventions, and simplicity.</p><p>Ensure ES6 syntax is used consistently across the project, including but not limited to arrow functions, destructuring, template literals, and let/const.</p>"
+  },
+  {
+    "requirement": "The application's style should be managed using SASS, demonstrating a clear hierarchy and BEM methodology where applicable.",
+    "criteria": "<p>Examine the SASS files for organization, use of variables, mixins, and nested rules.</p><p>Look for adherence to the BEM methodology or another consistent naming convention for classes.</p>"
+  },
+  {
+    "requirement": "The candidate must follow provided specifications precisely, including attribute selectors for testing.",
+    "criteria": "<p>Ensure all `data-test` attribute specifications are correctly implemented to aid in Cypress E2E testing.</p><p>Validate the presence and functionality of UI elements specified in the challenge, including the 'Add Task' modal, task input fields, and filter button.</p>"
+  },
+  {
+    "requirement": "The code should be efficiently structured and well-commented, with an emphasis on reusability and maintainability.",
+    "criteria": "<p>Assess the project structure for logical organization into folders and files.</p><p>Review the code for meaningful comments that explain why the code does something, not just what it does.</p><p>Check for patterns that enhance reusability (e.g., use of Vuex modules, Vue mixins, or custom hooks).</p>"
+  }
+]

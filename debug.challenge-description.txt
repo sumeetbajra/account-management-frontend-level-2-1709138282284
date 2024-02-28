@@ -1,0 +1,1 @@
+This challenge is designed to assess a candidate's proficiency in building a Vue.js application with Vuex, Ant Design Vue, TypeScript, Vite, Jest, clean code practices, ES6 syntax, and SASS.
